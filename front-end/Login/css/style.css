@@ -1,0 +1,102 @@
+body{
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background: url("../img/fundo_azul.jpg") no-repeat center center fixed;
+	font-family: Nunito;
+	width: auto;
+}
+
+.container {
+
+	width: auto;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box{
+
+	width: 20rem;
+	padding: 4rem;
+	background-color: #fff;
+	border-radius: 3rem;
+	text-align: center;
+}
+
+.box h1{
+	
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	color: black;
+}
+
+
+input{
+
+	display: block;
+	margin: 1rem auto;
+	text-align: center;
+	border-radius: 2rem;
+	outline: none;
+	font-size: 16px;
+	transform: 0.30s;
+}
+
+input[type="text"],
+input[type="password"]{
+	
+	border: 2.2px solid #2f80ed;
+	padding: 15px 40px;
+	width: 200px;
+}
+
+input[type="text"]: focus, 
+input[type="password"]: focus{
+
+	width: 225px;
+}
+
+
+input[type="submit"]{
+
+	border: 2.2px solid #fff;
+	padding: 8px 12px;
+	width: 130px;
+	background: linear-gradient(to right, #00dbde, #33ff99);
+	color: #fff;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+input[type = "submit"]:hover{
+	
+	width: 150px;
+}
+
+a{
+	color: #5586e5;
+	font-size: 15px;
+}
+
+a:hover{
+	
+	color: red;
+}
+
+@media(max-width: 520px){
+
+	.box{
+		width: 15rem;
+		padding: 3rem;
+	}
+
+	input[type="text"]
+	input[type="passwprd"]{
+		padding: 14px 20px;
+	}
+}

@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+}
+
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background: #6C7A89;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	background: #fff;
+}
+
+input, select{
+	font-size: 15px; 
+	padding: 2px; 
+	margin: 5px;
+	position: center;
+}                          
+
+label{
+	display: block;
+}
+
+.btn_envia{
+ 	display: block; 
+    background: #006600; 
+    border: none; 
+    width: 100%; 
+    color: white;
+    text-shadow: 0 0 1px #333;
+}
+
+.btn_envia:hover{background: #00A400;}    
